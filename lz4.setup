@@ -1,0 +1,8 @@
+(compile -s "lz4-impl.c" "lz4hc.c" "lz4.scm" -J)
+(compile -s "lz4.import.scm")
+
+(install-extension
+ 'lz4
+ '("lz4.so" "lz4.import.so")
+ '((version 0.1)))
+

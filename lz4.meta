@@ -1,0 +1,7 @@
+((egg "lz4.egg")
+ (synopsis "A wrapper around the LZ4 compression library.")
+ (author "Yann Collet")
+ (maintainer "Christian Kellermann")
+ (category io)
+ (license "BSD")
+ (files "lz4.setup" "lz4.scm" "lz4.meta" "lz4-impl.c" "lz4hc.c" "lc4.h" "lc4hc.h"))
