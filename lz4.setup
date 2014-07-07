@@ -4,5 +4,5 @@
 (install-extension
  'lz4
  '("lz4.so" "lz4.import.so")
- '((version 0.1)))
+ '((version 0.2)))
 
